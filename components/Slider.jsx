@@ -6,8 +6,8 @@ function Slider() {
   const [index, setIndex] = useState(0);
   const images = [
     "/images/featured.png",
-    "/images/featured2.jpg",
-    "/images/featured3.jpg",
+    "/images/featured2.png",
+    "/images/featured3.png",
   ];
 
 
