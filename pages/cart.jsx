@@ -95,7 +95,6 @@ function Cart() {
     <div className={styles.container}>
       <div className={styles.left}>
         <table className={styles.table}>
-          <thead>
             <tr className={styles.trTitle}>
               <th>Product</th>
               <th>Name</th>
@@ -104,7 +103,6 @@ function Cart() {
               <th>Quantity</th>
               <th>Total</th>
             </tr>
-          </thead>
           <tbody>
             {cart.products.map((product) => (
               <tr className={styles.tr}>
